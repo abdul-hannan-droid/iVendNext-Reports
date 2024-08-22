@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:dashboard_name",
+ "creation": "2024-08-22 12:10:43.912351",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "dashboard_name",
+  "json_data"
+ ],
+ "fields": [
+  {
+   "fieldname": "dashboard_name",
+   "fieldtype": "Data",
+   "label": "Dashboard Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "json_data",
+   "fieldtype": "JSON",
+   "label": "JSON Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-22 12:11:44.520556",
+ "modified_by": "Administrator",
+ "module": "iVendNext Reports",
+ "name": "Stimulsoft Dashboard",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
