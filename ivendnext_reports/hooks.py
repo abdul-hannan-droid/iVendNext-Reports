@@ -12,6 +12,13 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/ivendnext_reports/css/ivendnext_reports.css"
 # app_include_js = "/assets/ivendnext_reports/js/ivendnext_reports.js"
+app_include_js = [
+    "/assets/ivendnext_reports/js/stimulsoft.blockly.editor.js",
+    "/assets/ivendnext_reports/js/stimulsoft.dashboards.js",
+    "/assets/ivendnext_reports/js/stimulsoft.designer.js",
+    "/assets/ivendnext_reports/js/stimulsoft.reports.js",
+    "/assets/ivendnext_reports/js/stimulsoft.viewer.js",
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/ivendnext_reports/css/ivendnext_reports.css"
@@ -69,6 +76,7 @@ app_license = "mit"
 
 # before_install = "ivendnext_reports.install.before_install"
 # after_install = "ivendnext_reports.install.after_install"
+after_install = "ivendnext_reports.install.after_install"
 
 # Uninstallation
 # ------------
@@ -226,4 +234,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
